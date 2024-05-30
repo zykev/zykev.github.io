@@ -2,24 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my personal page! I'm currently an incoming PhD student at the [Faculty of Dentistry](https://facdent.hku.hk/index.html), The University of Hong Kong, supervised by [Dr. Kai Han](https://www.kaihan.org/) at [Department of Statistics and Actuarial Science](https://saasweb.hku.hk/) and [Dr. Pearl Pei Liu](https://facdent.hku.hk/about/staff-profile.php?shortname=peiliu) at Applied Oral Sciences and Community Dental Care. Previously, I obtained my MSc degree in data science at Department of Statistics and Actuarial Science, HKU, and my Bechelor of Science degree in Applied Statistics at Nanjing University of Science and Technology.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in Machine Learning and Computer Vision, and focus on reliable representation learning and its application on dental image processing.

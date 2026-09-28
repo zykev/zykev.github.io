@@ -39,10 +39,10 @@ I am interested in machine learning and computer vision, with a particular focus
 
 ### Presentations
 
-**DentMAG: Masked Autoencoding with Guidance Cues for Comprehensive Dental Diagnosis.** 2026 IADR/AADOCR/CADR General Session & Exhibition, San Diego, CA, USA, March 23–28, 2026. [Poster](/assets/pdf/poster-iadr-2026-zeyu-chen.pdf){: .btn .btn-sm .z-depth-0}
+**DentMAG: Masked Autoencoding with Guidance Cues for Comprehensive Dental Diagnosis.** 2026 IADR/AADOCR/CADR General Session & Exhibition, San Diego, CA, USA, March 23–28, 2026. <a href="/assets/pdf/poster-iadr-2026-zeyu-chen.pdf" class="presentation-poster-link"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>Poster</span></a>
 
 
-**AI-assisted Photograph-based Oral Health Screening and Surveillance: A Scoping Review.** 2025 IADR/AADOCR/CADR General Session & Exhibition, Barcelona, Spain, June 23–28, 2025. [Poster](/assets/pdf/poster-iadr-2025-zeyu-chen.pdf){: .btn .btn-sm .z-depth-0}
+**AI-assisted Photograph-based Oral Health Screening and Surveillance: A Scoping Review.** 2025 IADR/AADOCR/CADR General Session & Exhibition, Barcelona, Spain, June 23–28, 2025. <a href="/assets/pdf/poster-iadr-2025-zeyu-chen.pdf" class="presentation-poster-link"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>Poster</span></a>
 
 
 ### Conference Reviewer

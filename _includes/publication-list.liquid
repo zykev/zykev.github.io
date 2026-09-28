@@ -5,11 +5,18 @@
     </div>
     <div class="publication-details">
       <h2>CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook</h2>
+      <p class="publication-venue">Accepted to <em>Findings of the Association for Computational Linguistics: ACL 2026</em></p>
       <p class="publication-links">
         <span class="link-block"><a href="https://visual-ai.github.io/codebind" class="external-link button" role="button"><i class="fa-solid fa-globe" aria-hidden="true"></i><span>Project</span></a></span>
         <span class="link-block"><a href="https://arxiv.org/abs/2605.18257" class="external-link button" role="button"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>Paper</span></a></span>
         <span class="link-block"><a href="https://github.com/Visual-AI/CodeBind/tree/main" class="external-link button" role="button"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Code</span></a></span>
       </p>
+      {% if page.permalink == '/publications/' %}
+        <details class="publication-abstract">
+          <summary>Abstract</summary>
+          <p>Multimodal representation alignment is essential for large language models and robotics, but existing approaches are limited by cross-modal discrepancies, scarce paired data, and an overemphasis on modality-shared information. CodeBind learns a compositional representation space with a shared codebook for cross-modal semantics and modality-specific codebooks for unique details. By incrementally aligning target and bridging modalities, it avoids requiring fully paired data and achieves state-of-the-art classification and retrieval results across nine modalities.</p>
+        </details>
+      {% endif %}
     </div>
   </article>
 
@@ -19,9 +26,16 @@
     </div>
     <div class="publication-details">
       <h2>AI in Oral Health Surveillance: Critical Review</h2>
+      <p class="publication-venue">Accepted by the <em>Journal of Dental Research</em></p>
       <p class="publication-links">
         <span class="link-block"><a href="https://doi.org/10.1177/00220345261434568" class="external-link button" role="button"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i><span>Paper</span></a></span>
       </p>
+      {% if page.permalink == '/publications/' %}
+        <details class="publication-abstract">
+          <summary>Abstract</summary>
+          <p>This critical review examines how artificial intelligence can strengthen oral health surveillance through population-level analysis, image-based remote screening, and multimodal data integration. It compares the roles of machine learning, computer vision, and emerging multimodal large language models; identifies practical challenges such as imaging quality, domain shift, class imbalance, and cost-effectiveness; and outlines a path toward ethical, scalable, and actionable public-health monitoring systems.</p>
+        </details>
+      {% endif %}
     </div>
   </article>
 </div>

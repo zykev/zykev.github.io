@@ -55,30 +55,29 @@ $max-content-width: {{ site.max_width }};
   margin: 0;
 }
 
+.publication-authors {
+  margin: 0.55rem 0 0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
 .publication-venue {
   margin: 0.45rem 0 0;
   color: var(--global-text-color-light);
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.publication-authors + .publication-venue {
+  margin-top: 0.3rem;
 }
 
 .publication-links {
   margin: 1rem 0 0;
 }
 
-.publication-abstract {
-  margin-top: 0.7rem;
-}
-
-.publication-abstract summary {
-  width: fit-content;
-  cursor: pointer;
-  color: var(--global-theme-color);
-  font-weight: 600;
-}
-
-.publication-abstract p {
-  margin: 0.65rem 0 0;
+.publication-description {
+  margin: 0.2rem 0 0;
   color: var(--global-text-color);
   font-size: 0.98rem;
   line-height: 1.6;
@@ -154,6 +153,29 @@ $max-content-width: {{ site.max_width }};
 .about-section-break {
   clear: both;
   height: 0.6rem;
+}
+
+.about-page .clearfix {
+  line-height: 1.7;
+}
+
+.about-page .clearfix > p:nth-of-type(-n + 2) {
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+
+.about-page .clearfix p,
+.about-page .clearfix li {
+  line-height: 1.7;
+}
+
+.post article {
+  line-height: 1.7;
+}
+
+.post article p,
+.post article li {
+  line-height: 1.7;
 }
 
 @media (max-width: 576px) {

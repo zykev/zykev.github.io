@@ -13,6 +13,7 @@ profile:
 news: false
 selected_papers: false
 social: true
+page_classes: about-page
 ---
 
 Welcome to my personal page! I'm currently a PhD student at the [Faculty of Dentistry](https://facdent.hku.hk/index.html), The University of Hong Kong, supervised by [Dr. Kai Han](https://www.kaihan.org/) at [School of Computing and Data Science](https://ai.hku.hk/) and [Dr. Pei Liu](https://facdent.hku.hk/about/staff-profile.php?shortname=peiliu) at Applied Oral Sciences and Community Dental Care. Previously, I obtained my Master degree in data science at School of Computing and Data Science, HKU, and my Bachelor degree in Applied Statistics at [Nanjing University of Science and Technology](https://math.njust.edu.cn/).
@@ -28,7 +29,7 @@ I am interested in machine learning and computer vision, with a particular focus
 
 ## **Publications**
 
-{% include publication-list.liquid %}
+{% include about-publication-list.liquid %}
 
 ## **Awards and Honors**
 

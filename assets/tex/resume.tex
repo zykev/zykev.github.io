@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\usepackage{fontawesome5}
+\usepackage{pifont}
+\input{glyphtounicode}
+
+\newcommand{\githubstars}[1]{[{\faGithubSquare}\,\ding{72}\,\textbf{#1}]}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-.65in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\linespread{1.1}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-0pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\LARGE \scshape Zeyu Chen} \\ \vspace{1pt}
+    \small
+    \underline{zeyuc07@connect.hku.hk} $|$
+    \href{https://zykev.github.io/}{\underline{zykev.github.io}} $|$
+    \underline{+86 18260068713}
+\end{center}
+
+
+% Skills and Experience before Education is recommended for industry applications.
+% Reference: https://www.sweresume.app/articles/faang-resume-guide/
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Hong Kong (HKU)}{Hong Kong}
+      {Ph.D. in Artificial Intelligence}{Sep. 2024 -- present}
+    \resumeSubheading
+      {The University of Hong Kong (HKU)}{Hong Kong}
+      {M.S. in Data Science}{Sep. 2022 -- Jan. 2024}
+    \resumeSubheading
+      {Nanjing University of Science and Technology}{Nanjing, China}
+      {B.S. in Applied Statistics}{Sep. 2016 -- Jun. 2020}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+% NOTE(hlim): Do NOT list Teaching Assistant (TA), grading, or academic service roles here.
+% Industry hiring managers look for engineering and research impact in the Experience section.
+% TA duties (office hours, grading, course prep) do not signal the skills tech companies hire for.
+% To show mentorship or leadership instead, frame it as a bullet inside your research role:
+%   e.g. "Mentored 5+ graduate researchers, contributing to 4+ published papers."
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Feed-forward 4D Clothed Human Reconstruction}{Feb. 2025 -- Present}
+      {Visual AI Lab, HKU (Advisor: Prof. Kai Han)}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem{Leverage 3D Gaussian Splatting to reconstruct high-fidelity 3D human avatars from sparse-view inputs, optimizing for both geometric accuracy and rendering speed.}
+        \resumeItem{Develop a dual-layer decoupling pipeline to separate body and clothing representations, introducing a novel animation scheme via extended Linear Blend Skinning (LBS) to recover dynamic cloth deformations from monocular videos.}
+        \resumeItem{Achieve state-of-the-art (SOTA) performance, outperforming baselines such as \textit{LHM} and \textit{GHG} in terms of reconstruction quality, structural integrity, and visual fidelity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Multimodal Unified Embedding Space Learning}{Jan. 2024 -- Sep. 2025}
+      {Visual AI Lab, HKU (Advisor: Dr. Jie Li, Prof. Kai Han)}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem{Developed CodeBind, a unified framework to align nine distinct modalities (including image, text, audio, video, thermal, and depth) into a joint embedding space via Vector Quantization (VQ) techniques.}
+        \resumeItem{Proposed a decoupled representation learning scheme using modality-shared and modality-specific codebooks, effectively isolating cross-modal invariant features from domain-specific characteristics.}
+        \resumeItem{Surpassed industry-standard baselines (\textit{ImageBind, ViT-Lens}) across multiple benchmarks, achieving SOTA results in zero-shot multimodal classification and cross-modal retrieval tasks.}
+        \resumeItem{Conducted in-depth analysis of language density's role in multimodal alignment and leveraged Qwen3-VL to interpret and visualize the semantic properties of decomposed modality-specific components.}
+        \resumeItem{Demonstrated the versatility of the decoupled space by enabling downstream applications such as any-to-image generation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Compositional Text-to-Image Generation with Diffusion Model}{Jun. 2024 -- Dec. 2024}
+      {Master Thesis, HKU (Advisor: Dr. Jie Li, Prof. Kai Han)}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem{Developed a controllable generation framework based on Stable Diffusion to synthesize compositional images featuring multiple personalized concepts and precise layout arrangements.}
+        \resumeItem{Implemented LoRA-based fine-tuning integrated with an auxiliary image encoder to inject reference features into text embeddings, significantly enhancing identity preservation and training efficiency over the \textit{Mix-of-Show} baseline.}
+        \resumeItem{Engineered a novel training-free guidance mechanism by optimizing cross-attention maps during the sampling process, ensuring that the spatial distribution of personalized concepts strictly adheres to user-defined bounding boxes.}
+        \resumeItem{Demonstrated superior generalization in complex multi-concept scenarios, effectively mitigating the "attribute leakage" and "missing objects" issues common in standard T2I models.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Machine Vision to Facial Fatigue with Nonlocal 3D Attention Network}{Feb. 2021 -- Sep. 2021}
+      {Research Intern, BIAI Intelligence Biotech Co., Ltd (Advisor: Dr. Xiaotao Li)}{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Curated a real-world facial fatigue dataset by capturing high-resolution video data in naturalistic driving and working scenarios, moving beyond traditional lab-simulated environments.}
+        \resumeItem{Developed a spatiotemporal feature extraction backbone by upgrading 2D architectures to a 3D ResNet integrated with Non-local Self-Attention mechanisms, achieving 90\% accuracy on binary fatigue classification.}
+        \resumeItem{Enhanced model interpretability by utilizing Grad-CAM and guided backpropagation to visualize and validate salient physiological fatigue indicators (e.g., eye closure duration, blinking patterns) captured by the network.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------KEY PROJECTS-----------
+% NOTE(hlim):  *** CUSTOMIZE FOR EVERY APPLICATION ***
+%     Swap to match the job description:
+%       AV perception  -> highlight detection, segmentation, sensor fusion
+%       Mapping team   -> highlight SLAM, HD map, loop closure
+%       Robot learning -> highlight RL, imitation learning, sim-to-real
+%     XYZ formula: "Accomplished [X] as measured by [Y], by doing [Z]."
+%     Reference: https://www.sweresume.app/articles/faang-resume-guide/
+% \section{Selected Projects}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \href{https://github.com/MIT-SPARK/KISS-Matcher}{\textbf{KISS-Matcher}} \githubstars{643} \emph{ICRA 2025}  $|$ Out-of-the-box fast and robust global point cloud registration for large-scale mapping. \\
+%      \href{https://github.com/MIT-SPARK/VGGT-SLAM}{\textbf{VGGT-SLAM}} \githubstars{882} \emph{NeurIPS 2025} $|$  -- Dense real-time RGB SLAM on SL(4) manifold; globally consistent 3D reconstruction. \\
+%      \href{https://github.com/url-kaist/patchwork-plusplus}{\textbf{Patchwork++}} \githubstars{842} \emph{IROS 2022} $|$  $~$100\,Hz LiDAR ground segmentation; deployed in AV and mobile robot production. \\
+%      \href{https://github.com/LimHyungTae/ERASOR}{\textbf{ERASOR}} \githubstars{494} \emph{RA-L 2021} $|$  -- ${\sim}$94\% dynamic-object artifact removal, enabling long-term autonomous navigation. \\
+%      \href{https://github.com/your-org/project1}{\textbf{[e.g., Real-Time LiDAR SLAM System]}} $|$ \emph{[Category, Year]} -- Reduced [X] by [Y]\% in city-scale environments by [Z]; deployed on [N]+ platforms. \\
+%      \href{https://github.com/your-org/project2}{\textbf{[e.g., 3D Object Detection Pipeline]}} $|$ \emph{[Category, Year]} -- Improved [X] recall by [Y]\% by [Z], processing at [N]\,Hz on [hardware] (e.g., NVIDIA Orin).
+%     }}
+%  \end{itemize}
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+    \textbf{Chen, Z.}, Li, J., \& Han, K. (2026). CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook. In Findings of the Association for Computational Linguistics: ACL 2026. Association for Computational Linguistics.
+    }
+    \item{
+    \textbf{Chen, Z.}, Zhang, X., Li, J., Ni, J., Chen, G., Wang, S., ... \& Li, X. (2021). Machine vision detection to daily facial fatigue with a nonlocal 3D attention network. arXiv preprint arXiv:2104.10420.
+    }
+    \item{
+    Ding, Z., \textbf{Chen, Z.}, Ma, M., \& Zhang, Z. (2019). Application of KF improved by Hermite interpolation in target trajectory correction. In AIP Conference Proceedings (Vol. 2185, No. 1, p. 020051). AIP Publishing LLC.
+    }
+ \end{itemize}
+
+
+%-----------HONORS \& AWARDS-----------
+\section{Honors \& Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{2023} -- Suoxinda Scholarship in Data Science, HKU (HK\$20,000) \\
+     \textbf{2023} -- Subject Prize Awardees, HKU (HK\$1000 x4 courses) \\
+     \textbf{2017-2019} -- NJUST Scholarship for Excellent Students
+    }}
+ \end{itemize}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python} \\
+     \textbf{Frameworks \& Tools}{: PyTorch, OpenCV, Git} \\
+     \textbf{Research Areas}{: Multimodal Representation Learning, 4D Human Reconstruction, Generative AI} \\
+     \textbf{Languages}{: Chinese (Native), English (Fluent)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

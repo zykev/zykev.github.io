@@ -77,6 +77,15 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Compile CV PDF 📄
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: resume.tex
+          working_directory: assets/tex
+      - name: Publish compiled CV
+        run: |
+          mv assets/tex/resume.pdf assets/pdf/resume.pdf
+          rm -f assets/tex/resume.aux assets/tex/resume.fdb_latexmk assets/tex/resume.fls assets/tex/resume.log assets/tex/resume.out
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter

@@ -63,7 +63,7 @@ $max-content-width: {{ site.max_width }};
 
 .publication-venue {
   margin: 0.45rem 0 0;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -167,6 +167,24 @@ $max-content-width: {{ site.max_width }};
 .about-page .clearfix p,
 .about-page .clearfix li {
   line-height: 1.7;
+}
+
+.about-page .clearfix > h2 {
+  margin: 2.5rem 0 0.8rem;
+}
+
+.about-page .clearfix > h3 {
+  margin: 1.75rem 0 0.55rem;
+}
+
+.about-page .clearfix > h2 + p,
+.about-page .clearfix > h2 + ul,
+.about-page .clearfix > h3 + p {
+  margin-top: 0;
+}
+
+.about-page .clearfix > ul {
+  margin-bottom: 0;
 }
 
 .post article {

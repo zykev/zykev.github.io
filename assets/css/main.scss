@@ -169,11 +169,30 @@ $max-content-width: {{ site.max_width }};
 }
 
 .social-inline-name .contact-icons {
-  font-size: 1.18rem;
+  display: inline-flex;
+  gap: 0.38rem;
+  font-size: 1rem;
 }
 
 .social-inline-name .contact-icons a {
-  margin-right: 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85rem;
+  height: 1.85rem;
+  margin: 0;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50%;
+  color: var(--global-text-color) !important;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.social-inline-name .contact-icons a:hover {
+  border-color: var(--global-theme-color);
+  background-color: var(--global-theme-color);
+  color: #fff !important;
+  transform: translateY(-1px);
 }
 
 .about-section-break {

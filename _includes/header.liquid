@@ -97,7 +97,7 @@
               {% else %}
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{% if p.nav_url %}{{ p.nav_url | relative_url }}{% else %}{{ url | relative_url }}{% endif %}"{% if p.nav_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

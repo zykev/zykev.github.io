@@ -1,11 +1,12 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
-nav: false
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav: true
+nav_order: 1
+nav_url: /assets/pdf/resume.pdf
+cv_pdf: resume.pdf
+description: Download my current CV as a PDF.
 ---
+
+My current CV is available as a [PDF](/assets/pdf/resume.pdf).

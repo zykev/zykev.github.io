@@ -15,27 +15,27 @@ selected_papers: false
 social: true
 ---
 
-Welcome to my personal page! I'm currently an incoming PhD student at the [Faculty of Dentistry](https://facdent.hku.hk/index.html), The University of Hong Kong, supervised by [Dr. Kai Han](https://www.kaihan.org/) at [Department of Statistics and Actuarial Science](https://saasweb.hku.hk/) and [Dr. Pearl Pei Liu](https://facdent.hku.hk/about/staff-profile.php?shortname=peiliu) at Applied Oral Sciences and Community Dental Care. Previously, I obtained my MSc degree in data science at Department of Statistics and Actuarial Science, HKU, and my BSc degree in Applied Statistics at [Nanjing University of Science and Technology](https://math.njust.edu.cn/).
+Welcome to my personal page! I'm currently a PhD student at the [Faculty of Dentistry](https://facdent.hku.hk/index.html), The University of Hong Kong, supervised by [Dr. Kai Han](https://www.kaihan.org/) at [School of Computing and Data Science](https://ai.hku.hk/) and [Dr. Pei Liu](https://facdent.hku.hk/about/staff-profile.php?shortname=peiliu) at Applied Oral Sciences and Community Dental Care. Previously, I obtained my Master degree in data science at School of Computing and Data Science, HKU, and my Bachelor degree in Applied Statistics at [Nanjing University of Science and Technology](https://math.njust.edu.cn/).
 
-I am interested in Machine Learning and Computer Vision, and focus on reliable representation learning and its application on dental image processing.
+I am interested in machine learning and computer vision, with a particular focus on multimodal understanding, 3D vision, and spatial intelligence. I also work on reliable representation learning for dental image analysis.
 
 <div class="about-section-break"></div>
 
-## News
+## **News**
 
 - **April 2026** — *CodeBind* was accepted to **Findings of ACL 2026**.
 - **April 2026** — *AI in Oral Health Surveillance: Critical Review* was accepted by the **Journal of Dental Research**.
 
-## Publications
+## **Publications**
 
 {% include publication-list.liquid %}
 
-## Awards and Honors
+## **Awards and Honors**
 
 - **2024–2028** — HKU Postgraduate Scholarship
 - **2023** — Suoxinda Scholarship in Data Science, HKU
 
-## Academic Activities
+## **Academic Activities**
 
 ### Presentations
 

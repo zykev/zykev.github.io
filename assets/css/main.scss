@@ -60,8 +60,23 @@ $max-content-width: {{ site.max_width }};
   margin: 0.85rem 0 0;
 }
 
-.social-above-name {
-  margin-bottom: 0.15rem;
+.social-inline-name {
+  display: inline-block;
+  margin-left: 0.45rem;
+  vertical-align: middle;
+}
+
+.social-inline-name .contact-icons {
+  font-size: 1.05rem;
+}
+
+.social-inline-name .contact-icons a {
+  margin-right: 0.3rem;
+}
+
+.about-section-break {
+  clear: both;
+  height: 0.6rem;
 }
 
 @media (max-width: 576px) {

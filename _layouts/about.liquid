@@ -3,17 +3,15 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    {% if page.social %}
-      <div class="social social-above-name">
-        <div class="contact-icons">{% include social.liquid %}</div>
-      </div>
-    {% endif %}
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
+      {% endif %}
+      {% if page.social %}
+        <span class="social social-inline-name"><span class="contact-icons">{% include social.liquid %}</span></span>
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>

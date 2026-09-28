@@ -19,6 +19,8 @@ Welcome to my personal page! I'm currently an incoming PhD student at the [Facul
 
 I am interested in Machine Learning and Computer Vision, and focus on reliable representation learning and its application on dental image processing.
 
+<div class="about-section-break"></div>
+
 ## News
 
 - **April 2026** — *CodeBind* was accepted to **Findings of ACL 2026**.

@@ -13,3 +13,12 @@ vendor
 
 
 tmp
+
+# LaTeX build artifacts (the website serves assets/pdf/resume.pdf)
+assets/tex/*.aux
+assets/tex/*.fdb_latexmk
+assets/tex/*.fls
+assets/tex/*.log
+assets/tex/*.out
+assets/tex/*.pdf
+assets/tex/*.synctex.gz

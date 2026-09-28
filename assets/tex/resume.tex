@@ -75,12 +75,15 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheading}[5]{
   \vspace{2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-3pt}
+      \textit{\small#3} & \textit{\small #4}
+      \if\relax\detokenize{#5}\relax\else \\
+        \multicolumn{2}{l}{\small\textit{#5}}
+      \fi
+    \end{tabular*}\vspace{-1pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -129,13 +132,16 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {The University of Hong Kong (HKU)}{Hong Kong}
-      {Ph.D. in Artificial Intelligence}{Sep. 2024 -- present}
+      {Artificial Intelligence, Ph.D. candidate}{Sep. 2024 -- present}
+      {Advisors: Dr. Kai Han, Dr. Pei Liu}
     \resumeSubheading
       {The University of Hong Kong (HKU)}{Hong Kong}
       {M.S. in Data Science}{Sep. 2022 -- Jan. 2024}
+      {}
     \resumeSubheading
       {Nanjing University of Science and Technology (NJUST)}{Nanjing, China}
       {B.S. in Applied Statistics}{Sep. 2016 -- Jun. 2020}
+      {}
 
   \resumeSubHeadingListEnd
 
@@ -194,7 +200,7 @@
 
 %-----------RESEARCH INTERESTS-----------
 \section{Research Interests}
-  \small{Multimodal understanding, 3D vision, spatial intelligence, and medical image analysis.}
+  \small{Multimodal Understanding, 3D Vision, Spatial Intelligence, and Medical Image Analysis.}
 
 
 %-----------PUBLICATIONS-----------

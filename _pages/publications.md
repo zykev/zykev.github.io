@@ -7,4 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-{% include publication-list.liquid %}
+<div class="publication-page">
+  {% include publication-list.liquid %}
+</div>

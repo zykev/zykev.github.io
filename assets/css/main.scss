@@ -111,6 +111,32 @@ $max-content-width: {{ site.max_width }};
   transform: translateY(-1px);
 }
 
+// The standalone publications page favors a gallery-like, vertical layout.
+.publication-page .publication-list {
+  margin-top: 2rem;
+}
+
+.publication-page .publication-item {
+  display: block;
+  padding: 0 0 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.publication-page .publication-figure {
+  margin-bottom: 1.25rem;
+}
+
+.publication-page .publication-figure figure {
+  margin: 0;
+}
+
+.publication-page .publication-figure img {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  object-fit: contain;
+}
+
 .presentation-poster-link {
   display: inline-flex;
   align-items: center;

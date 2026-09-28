@@ -26,6 +26,10 @@ I am interested in Machine Learning and Computer Vision, and focus on reliable r
 - **April 2026** — *CodeBind* was accepted to **Findings of ACL 2026**.
 - **April 2026** — *AI in Oral Health Surveillance: Critical Review* was accepted by the **Journal of Dental Research**.
 
+## Publications
+
+{% include publication-list.liquid %}
+
 ## Awards and Honors
 
 - **2024–2028** — HKU Postgraduate Scholarship
